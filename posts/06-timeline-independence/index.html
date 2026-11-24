@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jawhar · Independence</title>
+<style>
+@font-face { font-family: "Readex Pro"; src: url("../../design-system-pack/your-assets/ReadexPro-VariableFont_HEXP,wght.ttf") format("truetype"); font-weight: 160 700; }
+:root { --s: .3; --red: #C1272D; --ink: #1B1714; --body: #2E2823; --muted: #7A6F63; --paper: #EFE8DA; --blue: #2C4A8C; }
+* { box-sizing: border-box; margin: 0; }
+body { background: #e7e8e6; font: 15px/1.5 system-ui, sans-serif; padding: 36px 16px 90px; }
+.intro { max-width: 1240px; margin: 0 auto 30px; } .intro h1 { font-size: 22px; margin-bottom: 6px; } .intro p { color: #555; max-width: 900px; } .intro a { color: #555; }
+.strip { max-width: 1240px; margin: 0 auto; display: flex; gap: 14px; flex-wrap: wrap; }
+.slot { display: flex; flex-direction: column; }
+.frame { width: calc(1080px * var(--s)); height: calc(1350px * var(--s)); overflow: hidden; box-shadow: 0 10px 28px rgba(0,0,0,.18); cursor: zoom-in; }
+.cap { text-align: center; color: #777; font-size: 13px; margin-top: 6px; }
+.zoom { position: fixed; inset: 0; background: rgba(20,20,20,.92); display: none; place-items: center; z-index: 10; cursor: zoom-out; } .zoom.on { display: grid; }
+
+.post { width: 1080px; height: 1350px; transform: scale(var(--s)); transform-origin: top left; position: relative; overflow: hidden;
+  background: var(--paper) url(photos/v6/paper-clean.jpg) center/cover; direction: rtl; font-family: "Readex Pro", sans-serif; font-synthesis: none; color: var(--ink); }
+.post > * { position: absolute; }
+.post img { display: block; }
+.grain { inset: 0; pointer-events: none; z-index: 50; mix-blend-mode: multiply; opacity: .10; }
+.logo { left: 72px; top: 60px; width: 92px; aspect-ratio: 1102/1000; background: var(--ink); z-index: 40;
+  -webkit-mask: url(../../step-1-feeling/logo.svg) center/contain no-repeat; mask: url(../../step-1-feeling/logo.svg) center/contain no-repeat; }
+.foot { left: 80px; right: 80px; bottom: 44px; display: flex; justify-content: space-between; font-size: 20px; font-weight: 300; color: var(--muted); z-index: 40; }
+.kick { font-size: 30px; font-weight: 500; color: var(--red); }
+.ttl { font-size: 96px; font-weight: 700; line-height: 1.2; color: var(--ink); text-wrap: balance; }
+.ttl .r { color: var(--red); }
+.q { font-size: 34px; font-weight: 700; color: var(--red); line-height: 1.35; margin-top: 26px; }
+.tx { font-size: 31px; font-weight: 300; line-height: 1.6; color: var(--body); margin-top: 6px; text-wrap: pretty; }
+.li { position: relative; padding-right: 34px; font-size: 30px; line-height: 1.55; color: var(--body); margin-top: 8px; font-weight: 400; }
+.li::before { content: ""; position: absolute; right: 2px; top: 19px; width: 14px; height: 14px; background: var(--red); }
+.quote { font-family: "Amiri", "Readex Pro", serif; }
+.arch { background: var(--red); border-radius: 999px 999px 0 0; overflow: hidden; }
+.archimg { border-radius: 999px 999px 0 0; overflow: hidden; box-shadow: 0 24px 40px -18px rgba(60,40,20,.45); }
+.archimg img { width: 100%; height: 100%; object-fit: cover; }
+.paper { background: #fff; box-shadow: 0 30px 50px -20px rgba(60,40,20,.5), 0 4px 10px rgba(60,40,20,.15); }
+.paper img { width: 100%; height: 100%; object-fit: cover; }
+.print { background: #FBF8F2; padding: 12px; box-shadow: 0 26px 44px -18px rgba(60,40,20,.5), 0 3px 8px rgba(60,40,20,.15); overflow: hidden; }
+.print img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.12); }
+.bw { filter: grayscale(1) contrast(1.15); }
+.tag { font-size: 24px; font-weight: 600; color: #fff; background: var(--ink); padding: 6px 16px 8px; z-index: 20; white-space: nowrap; }
+.mark { z-index: 6; }
+/* text version B */
+.tx{font-size:38px;font-weight:400;color:#1B1714;line-height:1.55}.li{font-size:37px;font-weight:400;color:#1B1714;line-height:1.5;padding-right:38px}.li::before{top:22px;width:16px;height:16px}.q{font-size:38px;margin-top:22px}
+      mark{background:linear-gradient(transparent 56%, rgba(193,39,45,.30) 56%);color:inherit;padding:0 3px;font-weight:600}
+.intro { display: none; }
+</style>
+</head>
+<body>
+<div class="intro">
+  <h1>«من الحماية إلى الاستقلال» · timeline v8 (text version B on every slide)</h1>
+  <p>From your picks: a bright paper ground (Dengue, Kennedy), people as B&amp;W cut-outs on a red Moroccan arch (Nasser), painted scenes where no photo exists (the rider), documents as paper objects (Russian oil), Mohammed V inside the moon (Kennedy), small info marks, the Q&amp;A writing. Red only, no green. Every timeline runs left to right. Magnific used only for assets (3 cut-outs, 3 paintings, the paper). Earlier: <a href="carousel-v4.html">v4</a> · <a href="carousel-v3.html">v3</a> · <a href="carousel-v2.html">v2</a> · <a href="carousel-v1.html">v1</a> · v5 in <code>magnific-v5/</code>.</p>
+</div>
+<div class="strip" id="strip"></div>
+<div class="zoom" id="zoom"></div>
+<script src="map/morocco.js"></script>
+<script>
+const P = 'photos/';
+/* map helpers: MAP.W x MAP.H space, Morocco + Sahara drawn as one shape */
+const pj = (lon, lat) => [((lon - MAP.lonMin) * MAP.c * MAP.k).toFixed(1), ((MAP.latMax - lat) * MAP.k).toFixed(1)];
+const box = (lo1, la1, lo2, la2) => { const [x1, y1] = pj(lo1, la2), [x2, y2] = pj(lo2, la1); return `<rect x="${x1}" y="${y1}" width="${(x2 - x1).toFixed(1)}" height="${(y2 - y1).toFixed(1)}"/>`; };
+const shape = (fill, op, stroke) => `<g fill="${fill}" fill-opacity="${op}" stroke="${stroke || fill}" stroke-opacity="${op}" stroke-width="3" stroke-linejoin="round"><path d="${MAP.mar}"/><path d="${MAP.sah}"/></g>`;
+const Y0 = 1912, Y1 = 1956, X = y => 80 + (y - Y0) / (Y1 - Y0) * 920;
+const YEARS = [1912, 1930, 1944, 1947, 1953, 1955, 1956];
+function ruler(cur, label) {
+  let s = `<svg style="left:0;top:1180px;z-index:30" width="1080" height="90" viewBox="0 0 1080 90">
+    <line x1="80" y1="24" x2="1000" y2="24" stroke="#1B1714" stroke-opacity=".25" stroke-width="2"/>`;
+  if (cur) s += `<line x1="80" y1="24" x2="${X(cur)}" y2="24" stroke="#C1272D" stroke-width="4"/>`;
+  YEARS.forEach(y => { const on = cur && y === cur, past = cur && y < cur;
+    s += `<circle cx="${X(y)}" cy="24" r="${on ? 11 : 5}" fill="${on || past ? '#C1272D' : '#1B1714'}" fill-opacity="${on || past ? 1 : .45}"/>`; });
+  const lab = (x, t, red, anchor) => `<text x="${x}" y="62" font-family="Readex Pro" font-size="22" font-weight="${red ? 600 : 400}" fill="${red ? '#C1272D' : '#7A6F63'}" text-anchor="${anchor || 'middle'}" direction="ltr">${t}</text>`;
+  if (!cur) s += lab(80, '1912', 0, 'start') + lab(1000, '1956', 0, 'end');
+  else { s += lab(X(cur) + (cur > 1950 ? 11 : 0), label || cur, 1, cur > 1950 ? 'end' : 'middle'); if (cur > 1930) s += lab(80, '1912', 0, 'start'); }
+  return s + '</svg>';
+}
+const foot = n => `<div class="foot"><span>جوهر 360 · ملف الاستقلال</span><span style="direction:ltr">${n} / 9</span></div>`;
+const head = (kick, title, style) => `<div style="${style}"><div class="kick">${kick}</div><div class="ttl">${title}</div></div>`;
+const Q = t => `<div class="q">${t}</div>`, T = t => `<div class="tx">${t}</div>`, L = t => `<div class="li">${t}</div>`;
+const dots = (x, y, cols, rows, c) => { let s = `<svg class="mark" style="left:${x}px;top:${y}px" width="${cols * 18}" height="${rows * 18}">`;
+  for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) s += `<rect x="${i * 18}" y="${j * 18}" width="8" height="8" fill="${c || '#2C4A8C'}"/>`; return s + '</svg>'; };
+const red = t => `<b style="color:var(--red);font-weight:600">${t}</b>`;
+const S = [];
+
+/* 1 · cover: one composition. Title on paper, the flag as a full-width band, the king rising from it, 1912 → 1956 on the flag */
+const pent = (cx, cy, R) => { const p = [...Array(5)].map((_, i) => { const t = -Math.PI / 2 + i * 2 * Math.PI / 5; return [cx + R * Math.cos(t), cy + R * Math.sin(t)]; });
+  return [0, 2, 4, 1, 3].map(i => p[i].map(v => v.toFixed(1)).join(',')).join(' '); };
+S.push(`
+  <div class="logo"></div>
+  <div style="left:80px;width:920px;top:170px;text-align:right">
+    <div class="kick">ملف · 44 سنة في 9 محطات</div>
+    <div class="ttl" style="font-size:112px;line-height:1.15">من الحمايـــة<br>إلى <span class="r">الاستقـــلال</span></div>
+  </div>
+  <div style="left:0;top:640px;width:1080px;height:710px;background:#C1272D;overflow:hidden">
+    <svg style="position:absolute;left:0;top:0" width="1080" height="710" viewBox="0 0 1080 710">
+      <polygon points="${pent(190, 190, 110)}" fill="none" stroke="#006233" stroke-width="13" stroke-linejoin="miter"/>
+    </svg>
+    <div style="position:absolute;inset:0;mix-blend-mode:soft-light;background:linear-gradient(100deg, rgba(0,0,0,.32) 0%, rgba(255,255,255,.26) 14%, rgba(0,0,0,.2) 30%, rgba(255,255,255,.2) 47%, rgba(0,0,0,.26) 64%, rgba(255,255,255,.18) 82%, rgba(0,0,0,.3) 100%)"></div>
+    <div style="position:absolute;left:0;right:0;top:0;height:160px;background:linear-gradient(to bottom, rgba(0,0,0,.18), rgba(0,0,0,0))"></div>
+  </div>
+  <svg style="left:0;top:1196px;z-index:2" width="1080" height="20"><line x1="80" y1="10" x2="985" y2="10" stroke="#fff" stroke-opacity=".75" stroke-width="3"/><polygon points="1000,10 984,2 984,18" fill="#fff" fill-opacity=".75"/></svg>
+  <div style="left:80px;top:1090px;z-index:2;font-size:84px;font-weight:700;color:#fff;direction:ltr;line-height:1">1912</div>
+  <div style="left:800px;width:200px;top:1090px;z-index:2;font-size:84px;font-weight:700;color:#fff;direction:ltr;line-height:1;text-align:right">1956</div>
+  <img src="${P}v6/cut-mv-s.png" style="left:-121px;top:590px;width:1349px;height:760px;z-index:5;filter:grayscale(1) contrast(1.15) drop-shadow(0 -6px 30px rgba(60,10,10,.35))">
+  <div class="foot" style="color:rgba(255,255,255,.8);z-index:6;justify-content:flex-end"><span style="direction:ltr">1 / 9</span></div>`);
+
+/* 2 · 1912: the treaty as paper objects + the division bar */
+S.push(`
+  <div class="logo"></div>
+  <div class="paper" style="left:84px;top:190px;width:330px;height:440px;transform:perspective(1200px) rotateY(14deg) rotate(-4deg)"><img src="${P}petitjournal-1912.jpg" style="object-position:50% 40%"></div>
+  <div class="paper" style="left:300px;top:390px;width:250px;height:260px;transform:perspective(1200px) rotateY(-10deg) rotate(5deg);z-index:3"><img src="${P}lematin-1912.jpg" style="object-position:50% 0%"></div>
+  ${head('30 مارس 1912', 'معاهدة<br><span class="r">فـــاس</span>', 'left:600px;width:400px;top:220px;text-align:right')}
+  ${dots(870, 520, 7, 2)}
+  <div style="left:80px;width:920px;top:648px">
+    ${Q('ما هي؟')}${T('اتفاقية وقّعها السلطان مولاي عبد الحفيظ مع فرنسا في فاس، فدخل المغرب تحت «الحماية»: بقي السلطان على العرش، لكن <mark>السلطة الفعلية انتقلت إلى المقيم العام الفرنسي</mark>.')}
+  </div>
+  <div style="left:80px;width:920px;top:992px;direction:ltr">
+    <div style="display:flex;gap:14px;align-items:flex-end">
+      <div style="width:56%;display:flex;align-items:baseline;gap:10px"><b style="font-size:64px;font-weight:700;line-height:1;color:var(--ink)">56%</b><span style="font-size:26px;font-weight:600">فرنسا</span></div>
+      <div style="width:44%;display:flex;align-items:baseline;gap:10px;justify-content:flex-end"><span style="font-size:26px;font-weight:600;color:#AA151B">إسبانيا</span><b style="font-size:64px;font-weight:700;line-height:1;color:#AA151B">44%</b></div>
+    </div>
+    <div style="display:flex;gap:14px;margin-top:12px;height:58px">
+      <div style="width:56%;position:relative;border-radius:8px;overflow:hidden;display:flex;box-shadow:0 12px 22px -12px rgba(40,30,60,.5), inset 0 0 0 1px rgba(27,23,20,.08)">
+        <i style="flex:1;background:#002395"></i><i style="flex:1;background:#FBFAF7"></i><i style="flex:1;background:#ED2939"></i><i style="position:absolute;inset:0;border-radius:inherit;background:linear-gradient(100deg, rgba(0,0,0,.16) 0%, rgba(255,255,255,.22) 22%, rgba(0,0,0,.10) 45%, rgba(255,255,255,.16) 68%, rgba(0,0,0,.14) 100%);mix-blend-mode:soft-light"></i></div>
+      <div style="width:44%;position:relative;border-radius:8px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 22px -12px rgba(120,30,20,.5)">
+        <i style="flex:1;background:#AA151B"></i><i style="flex:2;background:#F1BF00"></i><i style="flex:1;background:#AA151B"></i><i style="position:absolute;inset:0;border-radius:inherit;background:linear-gradient(100deg, rgba(0,0,0,.16) 0%, rgba(255,255,255,.22) 22%, rgba(0,0,0,.10) 45%, rgba(255,255,255,.16) 68%, rgba(0,0,0,.14) 100%);mix-blend-mode:soft-light"></i></div>
+    </div>
+  </div>
+  <div style="left:80px;width:920px;top:1140px;text-align:right;font-size:21px;line-height:1.5;color:var(--muted)">إسبانيا: الشمال وطرفاية (27 نونبر 1912) وإفني والصحراء · طنجة دولية منذ 1923 · نسب تقريبية</div>
+  ${ruler(1912)}${foot(2)}`);
+
+/* 3 · 1930 (text version B) */
+S.push(`
+  <div class="logo"></div>
+  <div class="archimg" style="left:80px;top:180px;width:440px;height:560px"><img src="${P}v6/paint-1930.jpg" style="object-position:50% 60%"></div>
+  <div style="left:96px;top:710px;font-size:18px;color:var(--muted);z-index:5;background:var(--paper);padding:2px 8px">رسم توضيحي</div>
+  ${head('16 ماي 1930', 'الظهير<br><span class="r">البربري</span>', 'left:570px;width:430px;top:190px;text-align:right').replace('class="ttl"', 'class="ttl" style="font-size:80px"')}
+  <div style="left:570px;width:430px;top:450px;text-align:right;font-size:34px;line-height:1.6;font-weight:500;color:var(--ink)"><span style="color:var(--red)">«</span>اللهم يا لطيف، نسألك اللطف فيما جرت به المقادير، ولا تفرّق بيننا وبين إخواننا البرابر<span style="color:var(--red)">»</span></div>
+  <div style="left:80px;width:920px;top:770px">${Q('ما هو الظهير البربري؟')}${T('ظهير أصدرته سلطات الحماية، يُخضع مناطق أمازيغية <mark>لأعرافها بدل القضاء الشرعي</mark>. رأى فيه المغاربة محاولة <mark>لتفريق العرب والأمازيغ</mark>، فردّدوا «اللطيف» في المساجد، ومن هذا الغضب <mark>وُلدت الحركة الوطنية</mark>.')}</div>
+  ${ruler(1930)}${foot(3)}`);
+
+/* 4 · 1944 (text version B) */
+S.push(`
+  <div class="logo"></div>
+  <div class="paper" style="left:84px;top:190px;width:340px;height:470px;transform:perspective(1200px) rotateY(12deg) rotate(-3deg)"><img src="${P}news/n-1944-document.jpg" style="object-position:50% 0%"></div>
+  <div style="left:110px;top:540px;z-index:4;border:6px solid var(--red);color:var(--red);font-weight:700;font-size:46px;padding:2px 16px 6px;transform:rotate(-10deg);direction:ltr;opacity:.9;mix-blend-mode:multiply">1944</div>
+  ${head('11 يناير 1944', 'وثيقة المطالبة<br><span class="r">بالاستقـلال</span>', 'left:480px;width:520px;top:180px;text-align:right').replace('class="ttl"', 'class="ttl" style="font-size:60px;white-space:nowrap"')}
+  <div class="arch" style="left:805px;top:420px;width:180px;height:200px"></div>
+  <img class="bw" src="${P}v6/cut-balafrej-s.png" style="left:785px;top:370px;width:220px;height:250px;object-fit:cover;object-position:50% 0">
+  <div class="arch" style="left:585px;top:420px;width:180px;height:200px"></div>
+  <img class="bw" src="${P}v6/cut-allal-s.png" style="left:565px;top:370px;width:220px;height:250px;object-fit:cover;object-position:50% 0">
+  <div style="left:775px;top:628px;width:240px;text-align:center;font-size:22px;font-weight:500">أحمد بلافريج</div>
+  <div style="left:555px;top:628px;width:240px;text-align:center;font-size:22px;font-weight:500">علال الفاسي</div>
+  <div style="left:80px;width:920px;top:678px">${T('وقّعها <mark>رجال الحركة الوطنية</mark>، وسلّموها للإقامة العامة الفرنسية.')}${Q('ماذا طالبت؟')}${L('<mark>استقلال المغرب ووحدة ترابه</mark>، تحت عرش السلطان محمد بن يوسف.')}${L('نظام حكم <mark>شوري</mark> يحفظ حقوق المغاربة.')}${L('لأول مرة، لم يعد المطلب إصلاح الحماية، بل <mark>إنهاءها</mark>.')}</div>
+  ${ruler(1944)}${foot(4)}`);
+
+/* 5 · 1947: Casablanca then Tangier, left to right, two days apart */
+S.push(`
+  <div class="logo"></div>
+  <div class="print" style="left:80px;top:190px;width:440px;height:300px;transform:rotate(-2deg)"><img src="${P}news/n-1947-snrtfr.jpeg"></div>
+  <div class="print" style="left:560px;top:180px;width:440px;height:320px;transform:rotate(2deg)"><img src="${P}tangier-speech.jpg" style="object-position:50% 30%"></div>
+  <svg style="left:0;top:505px" width="1080" height="40"><line x1="110" y1="20" x2="970" y2="20" stroke="#1B1714" stroke-opacity=".3" stroke-width="2"/><polygon points="560,20 546,12 546,28" fill="#1B1714" fill-opacity=".5"/><circle cx="110" cy="20" r="11" fill="#C1272D"/><circle cx="970" cy="20" r="11" fill="#1B1714"/></svg>
+  <div style="left:80px;top:549px;width:320px;text-align:left;font-size:24px;font-weight:600;color:var(--red)">7 أبريل · الدار البيضاء</div>
+  <div style="left:440px;top:549px;width:200px;text-align:center;font-size:22px;color:var(--muted)">بعد يومين</div>
+  <div style="left:760px;top:549px;width:240px;text-align:right;font-size:24px;font-weight:600">9 أبريل · طنجة</div>
+  <div style="left:80px;width:920px;top:605px">
+    <div class="ttl" style="font-size:80px">من <span class="r">الدم</span> إلى الخطاب</div>
+    ${Q('ماذا حدث في الدار البيضاء؟')}${T('أطلقت قوات استعمارية النار على سكان أحياء شعبية، فسقط <mark>عشرات المدنيين</mark>. وزار السلطان أسر الضحايا قبل سفره.')}
+    ${Q('ماذا قال في طنجة؟')}${T('ألقى خطاباً تاريخياً أكد فيه <mark>حق المغرب في الحرية ووحدة ترابه</mark>.')}
+  </div>
+  ${ruler(1947)}${foot(5)}`);
+
+/* 6 · 1953: Mohammed V inside the moon (Kennedy ref), the exile route left to right */
+S.push(`
+  <div class="logo"></div>
+  <div style="left:100px;top:180px;width:440px;height:440px;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 30% 25%, #2B3B66, #141C33 70%);box-shadow:0 30px 60px -24px rgba(20,30,60,.55)">
+    <img src="${P}v6/moon.jpg" style="position:absolute;left:236px;top:8px;width:210px;height:210px;mix-blend-mode:screen"></div>
+  <img class="bw" src="${P}v6/cut-mv-s.png" style="left:-117px;top:199px;width:740px;height:417px;z-index:3">
+  <svg class="mark" style="left:80px;top:616px" width="480" height="4"><line x1="0" y1="2" x2="480" y2="2" stroke="#1B1714" stroke-width="3"/></svg>
+  ${dots(560, 230, 5, 3)}
+  <svg class="mark" style="left:560px;top:300px" width="120" height="60">${[10, 22, 34, 46, 60].map((h, i) => `<rect x="${i * 22}" y="${60 - h}" width="10" height="${h}" fill="#C1272D"/>`).join('')}</svg>
+  ${head('20 غشت 1953', '<span class="r">النفي</span>', 'left:700px;width:300px;top:190px;text-align:right')}
+  <div style="left:600px;width:400px;top:400px;text-align:right;font-size:32px;line-height:1.6;font-weight:500">وفي ليالي المنفى، قال مغاربة إنهم رأوا وجهه في <span style="color:var(--red)">القمر</span>.</div>
+  <svg style="left:0;top:670px" width="1080" height="40"><line x1="110" y1="20" x2="970" y2="20" stroke="#1B1714" stroke-opacity=".35" stroke-width="3"/><polygon points="330,20 316,12 316,28" fill="#1B1714" fill-opacity=".55"/><polygon points="760,20 746,12 746,28" fill="#1B1714" fill-opacity=".55"/><circle cx="110" cy="20" r="11" fill="#C1272D"/><circle cx="540" cy="20" r="9" fill="#1B1714"/><circle cx="970" cy="20" r="11" fill="#1B1714"/></svg>
+  <div style="left:80px;top:712px;width:280px;text-align:left;font-size:26px;line-height:1.4;font-weight:600">الرباط<div style="font-weight:300;color:var(--muted)">غشت 1953</div></div>
+  <div style="left:400px;top:712px;width:280px;text-align:center;font-size:26px;line-height:1.4;font-weight:600">كورسيكا<div style="font-weight:300;color:var(--muted)">أول محطة</div></div>
+  <div style="left:700px;top:712px;width:300px;text-align:right;font-size:26px;line-height:1.4;font-weight:600">مدغشقر · أنتسيرابي<div style="font-weight:300;color:var(--muted)">من يناير 1954</div></div>
+  <div style="left:80px;width:920px;top:820px">
+    ${Q('لماذا نُفي السلطان؟')}${T('<mark>رفض التنازل عن العرش</mark>، فعزلته سلطات الحماية بدعم من الباشا الكلاوي، ونصّبت مكانه <mark>محمد بن عرفة</mark>. فنُفي مع أسرته وولي عهده مولاي الحسن.')}
+  </div>
+  ${ruler(1953)}${foot(6)}`);
+
+/* 7 · 1953–1955: the resistance */
+S.push(`
+  <div class="logo"></div>
+  <div class="archimg" style="left:80px;top:180px;width:400px;height:500px"><img src="${P}v6/paint-resistance.jpg" style="object-position:40% 60%"></div>
+  <div style="left:96px;top:650px;font-size:18px;color:var(--muted);z-index:5;background:var(--paper);padding:2px 8px">رسم توضيحي</div>
+  ${head('1953 — 1955', 'المقاومـة', 'left:530px;width:470px;top:190px;text-align:right')}
+  <div style="left:790px;top:350px;width:236px;height:236px;filter:drop-shadow(14px 10px 3px rgba(27,23,20,.22))"><img src="${P}zerktouni.jpg" style="width:100%;height:100%;filter:grayscale(1) contrast(1.15);clip-path:polygon(7.5% 100.0%,7.5% 95.8%,20.0% 90.0%,28.4% 86.7%,23.4% 78.3%,19.7% 70.0%,17.5% 60.0%,16.7% 50.0%,16.2% 40.0%,14.7% 30.8%,14.2% 21.7%,16.7% 13.7%,22.5% 7.7%,32.6% 3.0%,46.7% 1.7%,60.1% 2.3%,68.4% 6.3%,74.3% 12.0%,77.1% 20.0%,77.5% 30.0%,76.5% 40.0%,80.1% 43.7%,82.6% 46.7%,83.5% 53.3%,81.8% 61.7%,78.5% 66.7%,74.3% 68.7%,73.5% 74.2%,74.3% 80.0%,78.5% 84.2%,94.3% 89.2%,94.3% 100.0%)"></div>
+  <div style="left:568px;top:325px;width:214px;height:260px;filter:drop-shadow(14px 10px 3px rgba(27,23,20,.22))"><img src="${P}allal-ba.jpg" style="width:100%;height:100%;filter:grayscale(1) contrast(1.15);clip-path:polygon(0.0% 100.0%,0.0% 95.8%,12.1% 90.8%,20.2% 86.7%,25.3% 80.0%,22.2% 73.3%,17.2% 63.3%,12.1% 56.7%,6.1% 51.7%,4.4% 45.0%,7.1% 40.8%,11.1% 40.0%,10.5% 33.3%,10.1% 25.0%,12.5% 16.3%,20.6% 8.7%,34.3% 3.0%,51.5% 1.7%,64.6% 2.3%,72.3% 6.0%,77.2% 13.3%,79.2% 20.0%,80.0% 26.7%,79.8% 32.5%,84.8% 31.7%,89.9% 35.0%,89.9% 43.3%,85.9% 51.7%,79.8% 56.7%,77.8% 63.3%,75.8% 71.7%,76.8% 78.3%,84.8% 85.0%,94.9% 90.0%,100.0% 93.3%,100.0% 100.0%)"></div>
+  <div style="left:790px;top:597px;width:220px;text-align:center;font-size:22px;font-weight:500">محمد الزرقطوني</div>
+  <div style="left:560px;top:597px;width:220px;text-align:center;font-size:22px;font-weight:500">علال بن عبد الله</div>
+  <div style="left:80px;width:920px;top:670px">
+    ${Q('كيف ردّ المغاربة على النفي؟')}
+    ${L(red('11 شتنبر 1953:') + ' علال بن عبد الله يهاجم موكب بن عرفة في الرباط، <mark>ويستشهد</mark>.')}
+    ${L(red('18 يونيو 1954:') + ' الزرقطوني <mark>يختار السمّ</mark> على أن يبوح بأسماء رفاقه.')}
+    ${L(red('20 غشت 1955:') + ' انتفاضة وادي زم وخريبكة.')}
+    ${L(red('1 أكتوبر 1955:') + ' جيش التحرير يحمل السلاح.')}
+  </div>
+  ${ruler(1955, '1953–55')}${foot(7)}`);
+
+/* 8 · 16 November 1955: the return, 27 months */
+S.push(`
+  <div class="logo"></div>
+  <div class="print" style="left:100px;top:170px;width:900px;height:470px;transform:rotate(-1.2deg)"><img src="${P}news/n-return-snrt2.jpg" style="object-position:50% 40%"></div>
+  <div style="left:70px;top:510px;width:300px;height:210px;background:var(--red);z-index:5;color:#fff;padding:18px 26px;box-shadow:0 20px 36px -16px rgba(120,20,20,.5)">
+    <div style="font-size:120px;font-weight:700;line-height:1;direction:ltr;text-align:right">27</div><div style="font-size:28px;margin-top:6px">شهراً في المنفى</div></div>
+  <div style="left:400px;width:600px;top:665px;text-align:right"><div class="kick">16 نونبر 1955</div></div><div style="left:80px;width:920px;top:740px;text-align:right"><div class="ttl" style="font-size:68px;white-space:nowrap">غادر سلطاناً وعاد <span class="r">ملكاً</span></div></div>
+  <div style="left:80px;width:920px;top:820px">
+    ${Q('كيف عاد؟')}${T('بعد مفاوضات إكس ليبان، <mark>اضطرت فرنسا إلى إعادته</mark>. وفي 18 نونبر أعلن نهاية الحماية، ودعا إلى الانتقال <mark>«من الجهاد الأصغر إلى الجهاد الأكبر»</mark>: بناء البلاد.')}
+  </div>
+  ${ruler(1955)}${foot(8)}`);
+
+/* 9 · 2 March 1956: independence, and why we celebrate on 18 November */
+const star = (cx, cy, r) => [...Array(5)].map((_, i) => { const a = -Math.PI / 2 + i * 4 * Math.PI / 5; return (cx + r * Math.cos(a)).toFixed(1) + ',' + (cy + r * Math.sin(a)).toFixed(1); }).join(' ');
+S.push(`
+  <div class="logo"></div>
+  <div class="print" style="left:80px;top:190px;width:600px;height:330px;transform:rotate(-2deg)"><img src="${P}news/n-1956-telquel.jpg" style="object-position:35% 30%;transform:scale(1.25);transform-origin:30% 30%"></div>
+  <div class="archimg" style="left:720px;top:170px;width:280px;height:360px"><img src="${P}v6/paint-crowd.jpg" style="object-position:50% 70%"></div>
+  <div style="left:80px;width:920px;top:545px;text-align:right"><div class="kick">2 مارس 1956 · باريس</div><div class="ttl" style="font-size:120px;color:var(--red);line-height:1.1">الاستقـــلال</div></div>
+  <div style="left:80px;width:920px;top:712px">
+    ${T('وقّع رئيس الحكومة مبارك البكاي ووزير الخارجية الفرنسي كريستيان بينو تصريحاً <mark>ينهي معاهدة فاس</mark> و<mark>يعترف باستقلال المغرب</mark>.')}
+    ${Q('لماذا نحتفل في 18 نونبر؟')}
+  </div>
+  <svg style="left:0;top:995px" width="1080" height="40"><line x1="110" y1="20" x2="970" y2="20" stroke="#1B1714" stroke-opacity=".3" stroke-width="2"/><polygon points="330,20 316,12 316,28" fill="#1B1714" fill-opacity=".5"/><polygon points="760,20 746,12 746,28" fill="#1B1714" fill-opacity=".5"/><circle cx="110" cy="20" r="9" fill="#1B1714"/><circle cx="540" cy="20" r="9" fill="#1B1714"/><polygon points="${star(970, 21, 17)}" fill="none" stroke="#C1272D" stroke-width="4" stroke-linejoin="round"/></svg>
+  <div style="left:70px;top:1037px;width:300px;text-align:left;font-size:24px;line-height:1.35;font-weight:600">2 مارس 1956<div style="font-weight:300;color:var(--muted)">يوم التوقيع</div></div>
+  <div style="left:390px;top:1037px;width:300px;text-align:center;font-size:24px;line-height:1.35;font-weight:600">3 مارس 1961<div style="font-weight:300;color:var(--muted)">عيد العرش</div></div>
+  <div style="left:700px;top:1037px;width:310px;text-align:right;font-size:24px;line-height:1.35;font-weight:700;color:var(--red)">18 نونبر<div style="font-weight:400">عيد الاستقلال</div></div>
+  ${ruler(1956)}${foot(9)}`);
+
+const grainURL = (function () { const n = 512, c = document.createElement('canvas'); c.width = c.height = n;
+  const ctx = c.getContext('2d'), im = ctx.createImageData(n, n), d = im.data;
+  for (let i = 0; i < d.length; i += 4) { const g = (Math.random() + Math.random() + Math.random() - 1.5) / 1.5; const v = Math.max(0, Math.min(255, 150 + g * 90)); d[i] = d[i + 1] = d[i + 2] = v; d[i + 3] = 255; }
+  ctx.putImageData(im, 0, 0); return c.toDataURL(); })();
+const only = new URLSearchParams(location.search).get('only');
+if (only) { document.querySelector('.intro').style.display = 'none'; document.body.style.padding = '0'; document.documentElement.style.setProperty('--s', '1'); }
+const strip = document.getElementById('strip');
+S.forEach((html, k) => {
+  if (only && +only !== k + 1) return;
+  const slot = document.createElement('div'); slot.className = 'slot';
+  slot.innerHTML = `<div class="frame"><div class="post">${html}<div class="grain" style="background-image:url(${grainURL})"></div></div></div><div class="cap">Slide ${k + 1}</div>`;
+  strip.append(slot);
+});
+const zoom = document.getElementById('zoom');
+document.querySelectorAll('.frame').forEach(f => f.addEventListener('click', () => {
+  const p = f.querySelector('.post').cloneNode(true); const s = Math.min((innerHeight - 40) / 1350, (innerWidth - 40) / 1080);
+  p.style.transform = `scale(${s})`; p.style.margin = `${(1350 * s - 1350) / 2}px ${(1080 * s - 1080) / 2}px`;
+  zoom.innerHTML = ''; zoom.appendChild(p); zoom.classList.add('on'); }));
+zoom.addEventListener('click', () => zoom.classList.remove('on'));
+</script>
+</body>
+</html>
